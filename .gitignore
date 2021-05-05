@@ -1,0 +1,7 @@
+*.pem
+*.pub
+me.auto.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform*
+*_pdc_ssh_key
