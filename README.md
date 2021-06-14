@@ -8,7 +8,7 @@ The terraform in this repo will generate the topology shown below. This consists
 1. Login to Azure. Install the Azure CLI following [Microsoft's Documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli). After installation run the command `az login` to authenticate to your account. This will open a browser to complete the login process.
 > **Note:** If your login is linked to multiple accounts you should run `az login --tenant TENANT_ID` indicating the subscription you wish to use
 
-2. Create a file named `me.auto.tfvars` to set variable values. There are many variables that can be overridden, but must can be left at their defaults, depending on your requirements. The terraform does assume a resource group has been created in the Azure account in advance and we need to set a value for it in this file, as shown in the example below.
+2. Create a file named `me.auto.tfvars` to set variable values. There are many variables that can be overridden, but most can be left at their defaults, depending on your requirements. The terraform does assume a resource group has been created in the Azure account in advance and we need to set a value for it in this file, as shown in the example below.
 ```
 azure_resource_group_name = "128Technology"
 ```
